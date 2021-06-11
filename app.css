@@ -3,11 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: url('dict.jpg');
-    background-size: cover;
-    background-position: top center;
-}
+
 select{
     width: 40%;
     left:30%;
