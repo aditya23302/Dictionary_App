@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Dictionary </title>
+    <link rel="stylesheet" href="2bootstrap.min.css"/>
+    <link rel="stylesheet" href="app.css"/>
+</head>
+<body >
+    <div class="container">
+        <div class="jumbotron">    
+            <h1 class="text-center">MY DICTIONARY:</h3><br><br>
+            <form id="searchForm">
+                    <div class="serachBar">
+                        <input class="form-control" type="text" autocomplete="off" placeholder="Enter the word" id="searchText">
+                    </div>
+                    <div class="dropdown">
+                        <h3 class="text-center">Select Language:</h3>
+                        <select id="selected" class="btn btn-secondary dropdown-toggle">
+                            <option value="en_GB" selected>English(UK)</option>
+                            <option value="hi">Hindi</option>
+                            <option value="en_US">English(US)</option>
+                            <option value="fr">French</option>
+                            <option value="es">Spanish</option>
+                            <option value="it">Italian</option>
+                            <option value="de">German</option>
+                            <option value="ar">Arabic</option>
+                        </select>
+                        <br><br>
+                    </div>
+                    <div class="well text-center">
+                    <button class="btn btn-primary" type="submit" >Search</button>
+                    </div>
+                    <br>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div id="meaning"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

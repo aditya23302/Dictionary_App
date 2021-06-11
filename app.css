@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('dict1.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+select{
+    width: 40%;
+    left:30%;
+}
+.well text-center{
+    border: 5px solid rebeccapurple;
+}
+btn{
+
+}
